@@ -35,6 +35,10 @@ body {
     border: 1px solid;
 }
 
+.ded__moroz {
+    transform: translate(-34%, -30%);
+}
+
 .celebration__img {
     height: 100%;
     width: 100%;
@@ -51,9 +55,21 @@ body {
 }
 
 .btn-block {
+    display: inline-block;
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(60, 60, 117);
+    border-radius: 10px;
+    border: 2px solid snow;
     text-align: center;
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn__custom {
+    color: snow;
+    text-decoration: dashed;
 }
 
 .btn {
